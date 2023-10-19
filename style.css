@@ -50,7 +50,8 @@ a {
 }
 
 .titleimage {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .catimage {
