@@ -6,6 +6,7 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
+    color: rgb(255, 255, 250);
 }
 
 .logo {
