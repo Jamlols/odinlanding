@@ -37,6 +37,8 @@ a {
 
 .titlecontent {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: #1F2937;
     padding: 32px 54px 32px 54px;
     margin: 0;
@@ -47,13 +49,15 @@ a {
 .titletext {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    flex-shrink: 1;
 }
 
 .titleimage {
     display: flex;
     flex-direction: column;
-}
-
-.catimage {
-    width: 40%;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    flex-shrink: 0;
 }
