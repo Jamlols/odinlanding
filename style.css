@@ -1,7 +1,14 @@
 .header {
     display: flex;
+    background-color: 
+}
+
+.logo {
+    border: 5px solid black;
+    border-radius: 100px;
 }
 
 .headerlinks {
     display: flex;
+    list-style-type: none;
 }
