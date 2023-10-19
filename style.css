@@ -45,7 +45,8 @@ a {
 }
 
 .titletext {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .titleimage {
