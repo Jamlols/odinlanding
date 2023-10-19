@@ -36,6 +36,7 @@ a {
 }
 
 .titlecontent {
+    display: flex;
     background-color: #1F2937;
     padding: 32px 54px 32px 54px;
     margin: 0;
