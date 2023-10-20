@@ -24,20 +24,25 @@ body {
 
 .headerlinks {
     display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    gap: 22px;
+    padding: 16px;
+    gap: 36px;
 }
 
 a {
     text-decoration: none;
     color: rgb(255, 255, 250);
+    transition: transform 0.2s;
+}
+
+li {
     transition: 0.2s;
 }
 
-a:hover {
-    font-weight: bold;
+li:hover {
+    transform: scale(1.05);
 }
 
 .titlecontent {
@@ -115,7 +120,7 @@ button {
 
 .card1:hover, .card2:hover, .card3:hover, .card4:hover {
     font-weight: bold;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .catcard {
