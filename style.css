@@ -49,11 +49,17 @@ a {
 .titletext {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 200px;
+    width: 50%;
+    height: auto;
     flex-shrink: 1;
 }
 
-.titlecontent {
-    display: flex
+.titleimagecontainer {
+    display: flex;
 }
+
+.titleimage {
+    width: 300px;
+    height: auto;
+}
+
