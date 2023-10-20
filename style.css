@@ -46,6 +46,7 @@ a {
     color: rgb(255, 255, 250);
     flex-wrap: wrap;
     gap: 32px;
+    flex: 1;
 }
 
 .titletext {
@@ -53,7 +54,7 @@ a {
 }
 
 button {
-    padding: 8px;
+    padding: 12px;
     background-color: rgb(255, 255, 250);
     border-radius: 10px;
     border-style: none;
@@ -77,3 +78,6 @@ button {
     height: auto;
 }
 
+.informationcontent {
+    display: flex;
+}
