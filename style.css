@@ -90,6 +90,8 @@ button {
     display: flex;
     flex-direction: row;
     gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
