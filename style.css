@@ -93,8 +93,14 @@ button {
 }
 
 .card {
+    display: flex;
     border: solid 5px #3882F6; 
-    border-radius: 5px;
+    border-radius: 10px;
     width: 150px;
     height: 150px;
+}
+
+.catcard {
+    width: 100%;
+    border-radius: 5px;
 }
