@@ -50,15 +50,10 @@ a {
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 200px
+    height: 200px;
     flex-shrink: 1;
 }
 
-.titleimage {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 200px;
-    align-items: center;
-    flex-shrink: 0;
+.titlecontent {
+    display: flex
 }
