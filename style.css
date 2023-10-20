@@ -33,12 +33,11 @@ body {
 a {
     text-decoration: none;
     color: rgb(255, 255, 250);
-    transition-duration: 0.2s;
+    transition: 0.2s;
 }
 
 a:hover {
     font-weight: bold;
-    transition-duration: 0.2s;
 }
 
 .titlecontent {
