@@ -110,9 +110,13 @@ button {
     height: 150px;
 }
 
+.card1, .card2, .card3, .card4 {
+    transition: transform 0.2s;
+}
+
 .card1:hover, .card2:hover, .card3:hover, .card4:hover {
     font-weight: bold;
-
+    transform: scale(1.1);
 }
 
 .catcard {
