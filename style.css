@@ -98,6 +98,10 @@ button {
     padding-bottom: 65px;
 }
 
+.informationheader {
+    font-size: 18px;
+}
+
 .informationcards {
     display: flex;
     flex-direction: row;
@@ -162,4 +166,14 @@ button {
 .quoteauthor {
     margin-left: auto;
     font-weight: bold;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+}
+
+.calltoactiontext {
+    
 }
