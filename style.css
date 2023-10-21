@@ -31,7 +31,7 @@ body {
     gap: 36px;
 }
 
-a {
+.headlink {
     text-decoration: none;
     color: rgb(255, 255, 250);
     transition: 0.2s;
@@ -171,9 +171,27 @@ button {
 .calltoaction {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #3882F6;
+    margin: 150px 300px 150px 300px;
+    border-radius: 10px;
 }
 
 .calltoactiontext {
-    
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.calltoactionp {
+    margin: 0;
+}
+
+.signupbutton {
+
 }
