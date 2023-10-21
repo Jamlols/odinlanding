@@ -208,6 +208,13 @@ h3 {
 .signbutton {
     background-color: #3882F6;
     border: solid 2px rgb(255, 255, 250);
+    transition: 0.2s;
+}
+
+.signbutton:hover {
+    transform: scale(1.05);
+    transition-duration: 0.2s;
+    box-shadow: 0 0 15px 5px rgb(255, 255, 250); 
 }
 
 .signlink {
