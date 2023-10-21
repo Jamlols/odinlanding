@@ -182,6 +182,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    color: rgb(255, 255, 250);
 }
 
 h3 {
@@ -192,6 +193,16 @@ h3 {
     margin: 0;
 }
 
-.signupbutton {
-
+.signbutton {
+    background-color: #3882F6;
+    border: solid 2px rgb(255, 255, 250);
 }
+
+.signlink {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    color: rgb(255, 255, 250);
+    font-weight: bold;
+}
+
