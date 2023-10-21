@@ -231,3 +231,14 @@ h3 {
     font-weight: bold;
 }
 
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext {
+    color: rgb(255, 255, 250);
+    margin: 30px;
+}
