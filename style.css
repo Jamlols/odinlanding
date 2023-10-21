@@ -28,7 +28,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 16px;
-    gap: 36px;
+    gap: 25px;
 }
 
 .headlink {
@@ -182,19 +182,22 @@ button {
 
 .calltoaction {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    flex-direction: row;
     align-items: center;
     background-color: #3882F6;
-    margin: 150px 300px 150px 300px;
+    margin: 150px;
     border-radius: 10px;
+    flex-basis: 300px;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
 .calltoactiontext {
     display: flex;
     flex-direction: column;
-    padding: 50px;
     color: rgb(255, 255, 250);
+    width: 50%;
 }
 
 h3 {
@@ -203,6 +206,9 @@ h3 {
 
 .calltoactionp {
     margin: 0;
+}
+
+.signupbutton {
 }
 
 .signbutton {
